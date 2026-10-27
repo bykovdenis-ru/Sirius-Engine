@@ -1,0 +1,16 @@
+{
+  "homeUrl": "sirius://home",
+  "searchEndpoint": "https://html.duckduckgo.com/html/",
+  "searchEngineName": "DuckDuckGo",
+  "timeoutSeconds": 30,
+  "maxResponseBytes": 8388608,
+  "startUrl": "sirius://home",
+  "windowWidth": 1180,
+  "windowHeight": 780,
+  "windowX": 370,
+  "windowY": 130,
+  "fontScale": 1.0,
+  "showSearchBar": true,
+  "restoreLastPage": false,
+  "lastUrl": "https://html.duckduckgo.com/html/?q=GOOGLE&kl=wt-wt"
+}

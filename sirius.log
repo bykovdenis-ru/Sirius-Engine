@@ -1,0 +1,119 @@
+2026-10-27 14:39:21 INFO    sirius         ========================================================================
+2026-10-27 14:39:21 INFO    sirius         Sirius UI starting, log: C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\sirius.log
+2026-10-27 14:39:21 INFO    sirius         Sirius 0.0.1 starting
+Traceback (most recent call last):
+  File "C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\src\Sirius.Browser\main.py", line 94, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\src\Sirius.Browser\main.py", line 77, in main
+    window = BrowserWindow(root, config, logger, client, config_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\src\Sirius.Browser\ui\window.py", line 62, in __init__
+    self._build_content()
+  File "C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\src\Sirius.Browser\ui\window.py", line 249, in _build_content
+    outer = tk.Frame(self.root, bg=COLORS["bg"], padx=10, pady=(4, 8))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Denis Bykov\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 3226, in __init__
+    Widget.__init__(self, master, 'frame', cnf, {}, extra)
+  File "C:\Users\Denis Bykov\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 2661, in __init__
+    self.tk.call(
+_tkinter.TclError: bad screen distance "4 8"
+
+2026-10-27 14:40:07 INFO    sirius         ========================================================================
+2026-10-27 14:40:07 INFO    sirius         Sirius UI starting, log: C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\sirius.log
+2026-10-27 14:40:07 INFO    sirius         Sirius 0.0.1 starting
+2026-10-27 14:40:08 INFO    sirius         UI request #1: navigate sirius://home
+2026-10-27 14:40:08 INFO    sirius         Запуск движка: C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\src\Sirius.Host\bin\Release\net8.0\Sirius.Host.exe --config C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\config.json
+2026-10-27 14:40:08 DEBUG   sirius         engine | 14:40:08.477 [host] Конфигурация загружена: C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\config.json
+2026-10-27 14:40:08 DEBUG   sirius         engine | 14:40:08.608 [host] Sirius.Host 0.0.1 запущен. PID=8152
+2026-10-27 14:40:08 DEBUG   sirius         engine | 14:40:08.734 [host] navigate -> ok sirius://home (0 ms, 15 blocks)
+2026-10-27 14:40:08 INFO    sirius         Страница: sirius://home | Sirius — новая вкладка | статус 200 | 0 мс
+2026-10-27 14:41:03 INFO    sirius         UI request #2: navigate google.com
+2026-10-27 14:41:04 INFO    sirius         UI request #3: navigate google.com
+2026-10-27 14:41:04 DEBUG   sirius         engine | 14:41:04.312 [host] navigate -> ok https://www.google.com/ (1014 ms, 6 blocks)
+2026-10-27 14:41:04 DEBUG   sirius         Пропущен устаревший ответ #2
+2026-10-27 14:41:04 DEBUG   sirius         engine | 14:41:04.760 [host] navigate -> ok https://www.google.com/ (340 ms, 6 blocks)
+2026-10-27 14:41:04 INFO    sirius         Страница: https://www.google.com/ | Google | статус 200 | 340 мс
+2026-10-27 14:41:19 INFO    sirius         UI request #4: search OpenCode
+2026-10-27 14:41:20 DEBUG   sirius         engine | 14:41:20.693 [host] search -> ok https://html.duckduckgo.com/html/?q=OpenCode&kl=wt-wt (1298 ms, 31 blocks)
+2026-10-27 14:41:20 INFO    sirius         Страница: https://html.duckduckgo.com/html/?q=OpenCode&kl=wt-wt | OpenCode at DuckDuckGo | статус 200 | 1298 мс
+2026-10-27 14:41:24 INFO    sirius         Остановка движка
+2026-10-27 14:41:24 DEBUG   sirius         engine | 14:41:24.814 [host] shutdown -> ok
+2026-10-27 14:41:24 DEBUG   sirius         engine | 14:41:24.814 [host] Sirius.Host остановлен.
+2026-10-27 14:41:24 INFO    sirius         Движок остановлен
+2026-10-27 14:41:24 INFO    sirius         Sirius stopped
+2026-10-27 14:44:34 INFO    sirius         ========================================================================
+2026-10-27 14:44:34 INFO    sirius         Sirius UI starting, log: C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\sirius.log
+2026-10-27 14:44:34 INFO    sirius         Sirius 0.0.1 starting
+2026-10-27 14:44:35 INFO    sirius         UI request #1: navigate sirius://home
+2026-10-27 14:44:35 INFO    sirius         Запуск движка: C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\src\Sirius.Host\bin\Release\net8.0\Sirius.Host.exe --config C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\config.json
+2026-10-27 14:44:35 DEBUG   sirius         engine | 14:44:35.779 [host] Конфигурация загружена: C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\config.json
+2026-10-27 14:44:35 DEBUG   sirius         engine | 14:44:35.848 [host] Sirius.Host 0.0.1 запущен. PID=14444
+2026-10-27 14:44:35 DEBUG   sirius         engine | 14:44:35.922 [host] navigate -> ok sirius://home (0 ms, 15 blocks)
+2026-10-27 14:44:36 INFO    sirius         Страница: sirius://home | Sirius — новая вкладка | статус 200 | 0 мс
+2026-10-27 14:45:59 INFO    sirius         UI request #2: navigate https://html.duckduckgo.com/html/?q=Sirius+browser+engine
+2026-10-27 14:46:00 DEBUG   sirius         engine | 14:46:00.735 [host] navigate -> ok https://html.duckduckgo.com/html/?q=Sirius+browser+engine (1476 ms, 31 blocks)
+2026-10-27 14:46:00 INFO    sirius         Страница: https://html.duckduckgo.com/html/?q=Sirius+browser+engine | Sirius browser engine at DuckDuckGo | статус 200 | 1476 мс
+2026-10-27 14:46:09 INFO    sirius         UI request #3: search youtube
+2026-10-27 14:46:09 DEBUG   sirius         engine | 14:46:09.873 [host] search -> ok https://html.duckduckgo.com/html/?q=youtube&kl=wt-wt (771 ms, 36 blocks)
+2026-10-27 14:46:09 INFO    sirius         Страница: https://html.duckduckgo.com/html/?q=youtube&kl=wt-wt | youtube at DuckDuckGo | статус 200 | 771 мс
+2026-10-27 14:46:10 INFO    sirius         UI request #4: navigate https://ru.wikipedia.org/wiki/YouTube
+2026-10-27 14:46:11 INFO    sirius         UI request #5: navigate https://ru.wikipedia.org/wiki/YouTube
+2026-10-27 14:46:11 INFO    sirius         UI request #6: navigate https://ru.wikipedia.org/wiki/YouTube
+2026-10-27 14:46:11 DEBUG   sirius         engine | 14:46:11.563 [host] navigate -> ok https://ru.wikipedia.org/wiki/YouTube (771 ms, 1062 blocks)
+2026-10-27 14:46:11 DEBUG   sirius         Пропущен устаревший ответ #4
+2026-10-27 14:46:12 DEBUG   sirius         engine | 14:46:12.247 [host] navigate -> ok https://ru.wikipedia.org/wiki/YouTube (237 ms, 1062 blocks)
+2026-10-27 14:46:12 INFO    sirius         UI request #7: navigate https://www.youtube.com/
+2026-10-27 14:46:12 DEBUG   sirius         Пропущен устаревший ответ #5
+2026-10-27 14:46:12 DEBUG   sirius         engine | 14:46:12.900 [host] navigate -> ok https://ru.wikipedia.org/wiki/YouTube (238 ms, 1062 blocks)
+2026-10-27 14:46:12 DEBUG   sirius         Пропущен устаревший ответ #6
+2026-10-27 14:46:12 DEBUG   sirius         engine | 14:46:12.977 [host] navigate -> ok https://www.youtube.com/ (0 ms, 9 blocks)
+2026-10-27 14:46:13 INFO    sirius         Страница: https://www.youtube.com/ | Не удалось подключиться | статус 0 | 0 мс
+2026-10-27 14:46:20 INFO    sirius         UI request #8: search google.com
+2026-10-27 14:46:20 DEBUG   sirius         engine | 14:46:20.929 [host] search -> ok https://html.duckduckgo.com/html/?q=google.com&kl=wt-wt (707 ms, 33 blocks)
+2026-10-27 14:46:20 INFO    sirius         Страница: https://html.duckduckgo.com/html/?q=google.com&kl=wt-wt | google.com at DuckDuckGo | статус 200 | 707 мс
+2026-10-27 14:46:21 INFO    sirius         UI request #9: navigate https://ru.wikipedia.org/wiki/Google_(поисковая_система)
+2026-10-27 14:46:22 DEBUG   sirius         engine | 14:46:22.203 [host] navigate -> ok https://ru.wikipedia.org/wiki/Google_(поисковая_система) (139 ms, 625 blocks)
+2026-10-27 14:46:22 INFO    sirius         Страница: https://ru.wikipedia.org/wiki/Google_(поисковая_система) | Google (поисковая система) — Википедия | статус 200 | 139 мс
+2026-10-27 14:46:22 INFO    sirius         UI request #10: navigate https://ru.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-ru.svg
+2026-10-27 14:46:22 DEBUG   sirius         engine | 14:46:22.665 [host] navigate -> ok https://ru.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-ru.svg (109 ms, 3 blocks)
+2026-10-27 14:46:22 INFO    sirius         Страница: https://ru.wikipedia.org/static/images/mobile/copyright/wikipedia-tagline-ru.svg | Изображение | статус 200 | 109 мс
+2026-10-27 14:46:27 INFO    sirius         Остановка движка
+2026-10-27 14:46:27 DEBUG   sirius         engine | 14:46:27.599 [host] shutdown -> ok
+2026-10-27 14:46:27 DEBUG   sirius         engine | 14:46:27.599 [host] Sirius.Host остановлен.
+2026-10-27 14:46:27 INFO    sirius         Движок остановлен
+2026-10-27 14:46:27 INFO    sirius         Sirius stopped
+2026-10-27 14:51:03 INFO    sirius         ========================================================================
+2026-10-27 14:51:03 INFO    sirius         Sirius UI starting, log: C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\sirius.log
+2026-10-27 14:51:03 INFO    sirius         Sirius 0.0.1 starting
+2026-10-27 14:51:04 INFO    sirius         UI request #1: navigate sirius://home
+2026-10-27 14:51:04 INFO    sirius         Запуск движка: C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\src\Sirius.Host\bin\Release\net8.0\Sirius.Host.exe --config C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\config.json
+2026-10-27 14:51:05 DEBUG   sirius         engine | 14:51:04.966 [host] Конфигурация загружена: C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\config.json
+2026-10-27 14:51:05 DEBUG   sirius         engine | 14:51:05.029 [host] Sirius.Host 0.0.1 запущен. PID=16152
+2026-10-27 14:51:05 DEBUG   sirius         engine | 14:51:05.111 [host] navigate -> ok sirius://home (0 ms, 15 blocks)
+2026-10-27 14:51:05 INFO    sirius         Страница: sirius://home | Sirius — новая вкладка | статус 200 | 0 мс
+2026-10-27 14:51:38 INFO    sirius         Остановка движка
+2026-10-27 14:51:38 DEBUG   sirius         engine | 14:51:38.889 [host] shutdown -> ok
+2026-10-27 14:51:38 DEBUG   sirius         engine | 14:51:38.890 [host] Sirius.Host остановлен.
+2026-10-27 14:51:38 INFO    sirius         Движок остановлен
+2026-10-27 14:51:38 INFO    sirius         Sirius stopped
+2026-10-27 14:55:33 INFO    sirius         ========================================================================
+2026-10-27 14:55:33 INFO    sirius         Sirius UI starting, log: C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\sirius.log
+2026-10-27 14:55:33 INFO    sirius         Sirius 0.0.1 starting
+2026-10-27 14:55:34 INFO    sirius         UI request #1: navigate sirius://home
+2026-10-27 14:55:34 INFO    sirius         Запуск движка: C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\src\Sirius.Host\bin\Release\net8.0\Sirius.Host.exe --config C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\config.json
+2026-10-27 14:55:34 DEBUG   sirius         engine | 14:55:34.529 [host] Конфигурация загружена: C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\config.json
+2026-10-27 14:55:34 DEBUG   sirius         engine | 14:55:34.599 [host] Sirius.Host 0.0.1 запущен. PID=8808
+2026-10-27 14:55:34 DEBUG   sirius         engine | 14:55:34.739 [host] navigate -> ok sirius://home (0 ms, 15 blocks)
+2026-10-27 14:55:34 INFO    sirius         Страница: sirius://home | Sirius — новая вкладка | статус 200 | 0 мс
+2026-10-27 14:55:37 INFO    sirius         UI request #2: search GOOGLE
+2026-10-27 14:55:39 DEBUG   sirius         engine | 14:55:39.599 [host] search -> ok https://html.duckduckgo.com/html/?q=GOOGLE&kl=wt-wt (2020 ms, 33 blocks)
+2026-10-27 14:55:39 INFO    sirius         Страница: https://html.duckduckgo.com/html/?q=GOOGLE&kl=wt-wt | GOOGLE — DuckDuckGo | статус 200 | 2020 мс
+2026-10-27 14:55:43 INFO    sirius         UI request #3: navigate https://html.duckduckgo.com/html/?q=GOOGLE&kl=wt-wt
+2026-10-27 14:55:44 DEBUG   sirius         engine | 14:55:44.964 [host] navigate -> ok https://html.duckduckgo.com/html/?q=GOOGLE&kl=wt-wt (1165 ms, 33 blocks)
+2026-10-27 14:55:45 INFO    sirius         Страница: https://html.duckduckgo.com/html/?q=GOOGLE&kl=wt-wt | GOOGLE — DuckDuckGo | статус 200 | 1165 мс
+2026-10-27 14:55:47 INFO    sirius         Остановка движка
+2026-10-27 14:55:47 DEBUG   sirius         engine | 14:55:47.265 [host] shutdown -> ok
+2026-10-27 14:55:47 DEBUG   sirius         engine | 14:55:47.265 [host] Sirius.Host остановлен.
+2026-10-27 14:55:47 INFO    sirius         Движок остановлен
+2026-10-27 14:55:47 INFO    sirius         Sirius stopped

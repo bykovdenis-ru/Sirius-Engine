@@ -1,0 +1,16 @@
+{
+  "homeUrl": "sirius://home",
+  "searchEndpoint": "https://html.duckduckgo.com/html/",
+  "searchEngineName": "DuckDuckGo",
+  "timeoutSeconds": 30,
+  "maxResponseBytes": 8388608,
+  "startUrl": "sirius://home",
+  "windowWidth": 1180,
+  "windowHeight": 760,
+  "windowX": 124,
+  "windowY": 63,
+  "fontScale": 1.0,
+  "showSearchBar": true,
+  "restoreLastPage": false,
+  "lastUrl": "https://html.duckduckgo.com/html/?q=OpenCode&kl=wt-wt"
+}
