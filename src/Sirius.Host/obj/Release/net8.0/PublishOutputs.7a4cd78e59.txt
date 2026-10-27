@@ -1,0 +1,7 @@
+C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\dist\Sirius-0.0.1\Sirius.Host.exe
+C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\dist\Sirius-0.0.1\Sirius.Host.dll
+C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\dist\Sirius-0.0.1\Sirius.Host.deps.json
+C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\dist\Sirius-0.0.1\Sirius.Host.runtimeconfig.json
+C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\dist\Sirius-0.0.1\Sirius.Host.pdb
+C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\dist\Sirius-0.0.1\Sirius.Engine.dll
+C:\My Projects\Project#1_26.10.2026\Sirius Browser Engine\dist\Sirius-0.0.1\Sirius.Engine.pdb
